@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteSpaceship", "InfiniteSpaceship\InfiniteSpaceship.csproj", "{3B819A9F-457C-42C4-9D03-5B00A15E56BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", "{757646BF-ECBA-44FE-A6CA-70F2C01670F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteSpaceship.Simulation.DomainModel", "Simulation\InfiniteSpaceship.Simulation.DomainModel\InfiniteSpaceship.Simulation.DomainModel.csproj", "{154D6A0E-969A-4419-B04A-3E353DF027B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteSpaceship.Simulation.Application", "Simulation\InfiniteSpaceship.Simulation.Application\InfiniteSpaceship.Simulation.Application.csproj", "{3E167D29-DCDB-4673-AD3F-67111D7257B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{608A7635-2E91-4D4E-8BCA-7BAF50E380CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E342EED-5FD3-4982-8102-7A7B11963FAD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5492108A-5E4F-406E-BE28-C9504EB3F972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteSpaceship.Simulation.DomainModel.Tests", "Simulation\InfiniteSpaceship.Simulation.DomainModel.Tests\InfiniteSpaceship.Simulation.DomainModel.Tests.csproj", "{DA6A69D7-2CD4-437C-B50A-B7D9D2E15F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteSpaceship.Api", "InfiniteSpaceship.Api\InfiniteSpaceship.Api.csproj", "{E527DA11-781C-4DDC-BB07-BA43BD168297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B819A9F-457C-42C4-9D03-5B00A15E56BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B819A9F-457C-42C4-9D03-5B00A15E56BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B819A9F-457C-42C4-9D03-5B00A15E56BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B819A9F-457C-42C4-9D03-5B00A15E56BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154D6A0E-969A-4419-B04A-3E353DF027B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154D6A0E-969A-4419-B04A-3E353DF027B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154D6A0E-969A-4419-B04A-3E353DF027B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154D6A0E-969A-4419-B04A-3E353DF027B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E167D29-DCDB-4673-AD3F-67111D7257B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E167D29-DCDB-4673-AD3F-67111D7257B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E167D29-DCDB-4673-AD3F-67111D7257B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E167D29-DCDB-4673-AD3F-67111D7257B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6A69D7-2CD4-437C-B50A-B7D9D2E15F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6A69D7-2CD4-437C-B50A-B7D9D2E15F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6A69D7-2CD4-437C-B50A-B7D9D2E15F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6A69D7-2CD4-437C-B50A-B7D9D2E15F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E527DA11-781C-4DDC-BB07-BA43BD168297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E527DA11-781C-4DDC-BB07-BA43BD168297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E527DA11-781C-4DDC-BB07-BA43BD168297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E527DA11-781C-4DDC-BB07-BA43BD168297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{154D6A0E-969A-4419-B04A-3E353DF027B5} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{3E167D29-DCDB-4673-AD3F-67111D7257B3} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{608A7635-2E91-4D4E-8BCA-7BAF50E380CA} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{5492108A-5E4F-406E-BE28-C9504EB3F972} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{DA6A69D7-2CD4-437C-B50A-B7D9D2E15F23} = {5492108A-5E4F-406E-BE28-C9504EB3F972}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14DC7CFA-3436-4294-B19F-78AF54EF341A}
+	EndGlobalSection
+EndGlobal
