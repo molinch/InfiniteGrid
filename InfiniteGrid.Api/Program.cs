@@ -22,7 +22,7 @@ namespace InfiniteGrid.Api
             WebHost.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
-                    //config.AddCommandLine(args);
+                    config.AddCommandLine(args);
                     config.SetBasePath(Directory.GetCurrentDirectory());
                     config.AddJsonFile(
                         "machine.settings.json", optional: true, reloadOnChange: false);

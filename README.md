@@ -19,9 +19,9 @@ To Build and publish run this command at the root of the project :
 dotnet clean && dotnet publish InfiniteGrid.Api  -o ../target
 ```
 
-Then run and choose your port
+Then run and choose your port of your choice
 ```bash
-dotnet InfiniteGrid.Api.dll --server.urls "https://localhost:55447"
+dotnet InfiniteGrid.Api.dll --server.urls "http://localhost:59480"
 ```
 
 
