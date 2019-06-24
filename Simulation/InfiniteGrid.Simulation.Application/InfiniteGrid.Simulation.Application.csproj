@@ -24,4 +24,16 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="target\Autofac.Extensions.DependencyInjection.dll" />
+    <None Remove="target\Ardalis.GuardClauses.dll" />
+    <None Remove="target\Autofac.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.Application.deps.json" />
+    <None Remove="target\System.Buffers.dll" />
+    <None Remove="target\System.Drawing.Common.dll" />
+    <None Remove="target\System.ComponentModel.Annotations.dll" />
+    <None Remove="target\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="target\System.Memory.dll" />
+    <None Remove="target\System.Numerics.Vectors.dll" />
+  </ItemGroup>
 </Project>

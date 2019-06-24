@@ -23,9 +23,46 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="target\appsettings.json" />
+    <Content Remove="target\target\target\web.config" />
+    <Content Remove="target\machine.settings.json" />
+    <Content Remove="target\appsettings.Development.json" />
+    <Content Remove="target\appsettings.json" />
+    <Content Remove="target\InfiniteGrid.Api.deps.json" />
+    <Content Remove="target\InfiniteGrid.Api.runtimeconfig.json" />
+    <Content Remove="target\target\InfiniteGrid.Api.runtimeconfig.json" />
+    <Content Remove="target\target\InfiniteGrid.Api.deps.json" />
+    <Content Remove="target\target\appsettings.Development.json" />
+    <Content Remove="target\target\appsettings.json" />
+    <Content Remove="target\target\machine.settings.json" />
+    <Content Remove="target\target\target\appsettings.json" />
+    <Content Remove="target\target\target\appsettings.Development.json" />
+    <Content Remove="target\target\target\machine.settings.json" />
+    <Content Remove="target\target\target\InfiniteGrid.Api.deps.json" />
+    <Content Remove="target\target\target\InfiniteGrid.Api.runtimeconfig.json" />
+    <Content Remove="target\web.config" />
+    <Content Remove="target\target\web.config" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Update="machine.settings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="target\Ardalis.GuardClauses.dll" />
+    <None Remove="target\InfiniteGrid.Api.pdb" />
+    <None Remove="target\Autofac.Extensions.DependencyInjection.dll" />
+    <None Remove="target\Autofac.dll" />
+    <None Remove="target\InfiniteGrid.Api.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.Application.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.DomainModel.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.DomainModel.pdb" />
+    <None Remove="target\InfiniteGrid.Simulation.Application.pdb" />
+    <None Remove="target\Swashbuckle.AspNetCore.dll" />
+    <None Remove="target\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Remove="target\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Remove="target\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Remove="target\System.Drawing.Common.dll" />
+  </ItemGroup>
 </Project>
