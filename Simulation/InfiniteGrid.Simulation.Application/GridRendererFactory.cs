@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InfiniteSpaceship.Simulation.Application
+namespace InfiniteGrid.Simulation.Application
 {
     public class GridRendererFactory : IGridRendererFactory
     {

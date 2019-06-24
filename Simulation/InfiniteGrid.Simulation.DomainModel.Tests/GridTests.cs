@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Linq;
 
-namespace InfiniteSpaceship.Simulation.DomainModel.Tests
+namespace InfiniteGrid.Simulation.DomainModel.Tests
 {
     public class GridTests
     {

@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Simulation\InfiniteSpaceship.Simulation.Application\InfiniteSpaceship.Simulation.Application.csproj" />
-    <ProjectReference Include="..\Simulation\InfiniteSpaceship.Simulation.DomainModel\InfiniteSpaceship.Simulation.DomainModel.csproj" />
+    <ProjectReference Include="..\Simulation\InfiniteGrid.Simulation.Application\InfiniteGrid.Simulation.Application.csproj" />
+    <ProjectReference Include="..\Simulation\InfiniteGrid.Simulation.DomainModel\InfiniteGrid.Simulation.DomainModel.csproj" />
   </ItemGroup>
 
   <ItemGroup>

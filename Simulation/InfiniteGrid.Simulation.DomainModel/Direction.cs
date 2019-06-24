@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InfiniteSpaceship.Simulation.DomainModel
+namespace InfiniteGrid.Simulation.DomainModel
 {
     public enum Direction: byte
     {

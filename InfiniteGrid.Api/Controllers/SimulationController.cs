@@ -5,11 +5,11 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Ardalis.GuardClauses;
-using InfiniteSpaceship.Simulation.Application.Requests;
+using InfiniteGrid.Simulation.Application.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace InfiniteSpaceship.Api.Controllers
+namespace InfiniteGrid.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

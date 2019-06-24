@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using InfiniteSpaceship.Simulation.DomainModel;
+using InfiniteGrid.Simulation.DomainModel;
 
-namespace InfiniteSpaceship.Simulation.Application
+namespace InfiniteGrid.Simulation.Application
 {
     public interface IGridRenderer
     {

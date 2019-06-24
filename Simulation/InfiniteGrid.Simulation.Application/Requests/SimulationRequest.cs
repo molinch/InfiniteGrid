@@ -1,11 +1,11 @@
-﻿using InfiniteSpaceship.Simulation.Application.Responses;
-using InfiniteSpaceship.Simulation.DomainModel;
+﻿using InfiniteGrid.Simulation.Application.Responses;
+using InfiniteGrid.Simulation.DomainModel;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace InfiniteSpaceship.Simulation.Application.Requests
+namespace InfiniteGrid.Simulation.Application.Requests
 {
     public class SimulationRequest : IRequest<SimulationResponse>
     {

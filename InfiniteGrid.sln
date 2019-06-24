@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", "{757646BF-ECBA-44FE-A6CA-70F2C01670F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{608A7635-2E91-4D4E-8BCA-7BAF50E380CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E342EED-5FD3-4982-8102-7A7B11963FAD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5492108A-5E4F-406E-BE28-C9504EB3F972}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfiniteGrid.Simulation.DomainModel.Tests", "Simulation\InfiniteGrid.Simulation.DomainModel.Tests\InfiniteGrid.Simulation.DomainModel.Tests.csproj", "{8EA7126C-6AE7-4254-BEAB-EF3FFE2F3B97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfiniteGrid.Simulation.Application", "Simulation\InfiniteGrid.Simulation.Application\InfiniteGrid.Simulation.Application.csproj", "{8BF25F45-2A53-4236-ADD7-75614F336728}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfiniteGrid.Simulation.DomainModel", "Simulation\InfiniteGrid.Simulation.DomainModel\InfiniteGrid.Simulation.DomainModel.csproj", "{62F4E406-938A-4E9D-B7D7-B356C044F30B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfiniteGrid.Api", "InfiniteGrid.Api\InfiniteGrid.Api.csproj", "{032CF5E5-07CF-4F0B-86D1-8B6D7E17552A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA7126C-6AE7-4254-BEAB-EF3FFE2F3B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA7126C-6AE7-4254-BEAB-EF3FFE2F3B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA7126C-6AE7-4254-BEAB-EF3FFE2F3B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA7126C-6AE7-4254-BEAB-EF3FFE2F3B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF25F45-2A53-4236-ADD7-75614F336728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF25F45-2A53-4236-ADD7-75614F336728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF25F45-2A53-4236-ADD7-75614F336728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF25F45-2A53-4236-ADD7-75614F336728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F4E406-938A-4E9D-B7D7-B356C044F30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F4E406-938A-4E9D-B7D7-B356C044F30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F4E406-938A-4E9D-B7D7-B356C044F30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F4E406-938A-4E9D-B7D7-B356C044F30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032CF5E5-07CF-4F0B-86D1-8B6D7E17552A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032CF5E5-07CF-4F0B-86D1-8B6D7E17552A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032CF5E5-07CF-4F0B-86D1-8B6D7E17552A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032CF5E5-07CF-4F0B-86D1-8B6D7E17552A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{608A7635-2E91-4D4E-8BCA-7BAF50E380CA} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{5492108A-5E4F-406E-BE28-C9504EB3F972} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{8EA7126C-6AE7-4254-BEAB-EF3FFE2F3B97} = {5492108A-5E4F-406E-BE28-C9504EB3F972}
+		{8BF25F45-2A53-4236-ADD7-75614F336728} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+		{62F4E406-938A-4E9D-B7D7-B356C044F30B} = {757646BF-ECBA-44FE-A6CA-70F2C01670F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14DC7CFA-3436-4294-B19F-78AF54EF341A}
+	EndGlobalSection
+EndGlobal

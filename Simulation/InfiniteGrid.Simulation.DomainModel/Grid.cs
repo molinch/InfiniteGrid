@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Ardalis.GuardClauses;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace InfiniteSpaceship.Simulation.DomainModel
+namespace InfiniteGrid.Simulation.DomainModel
 {
     public class Grid
     {
@@ -11,6 +12,8 @@ namespace InfiniteSpaceship.Simulation.DomainModel
 
         public Grid(IEnumerable<ColoredPoint> points)
         {
+            Guard.Against.Null(points, nameof(points));
+
             _coloredPoints = points.ToDictionary(p => p.Point, p => p);
             if (_coloredPoints.Count == 0)
             {
@@ -43,9 +46,9 @@ namespace InfiniteSpaceship.Simulation.DomainModel
 
         public IEnumerable<ColoredPoint> AllPointsFromTopLeftToBottomRight()
         {
-            for (var i = Left; i < Right; i++)
+            for (var i = Left; i <= Right; i++)
             {
-                for (var j = Bottom; j < Top; j++)
+                for (var j = Top; j >= Bottom; j--)
                 {
                     var point = new Point(i, j);
                     if (!_coloredPoints.TryGetValue(point, out var coloredPoint))
@@ -60,7 +63,7 @@ namespace InfiniteSpaceship.Simulation.DomainModel
         public IEnumerable<IEnumerable<ColoredPoint>> AllPointsRowByRow()
         {
             return AllPointsFromTopLeftToBottomRight()
-                .GroupBy(p => p.Point.X);
+                .GroupBy(p => p.Point.Y);
         }
     }
 }

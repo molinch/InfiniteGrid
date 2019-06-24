@@ -1,9 +1,9 @@
-﻿using InfiniteSpaceship.Simulation.DomainModel;
+﻿using InfiniteGrid.Simulation.DomainModel;
 using System;
 using System.IO;
 using System.Text;
 
-namespace InfiniteSpaceship.Simulation.Application
+namespace InfiniteGrid.Simulation.Application
 {
     public class TextRenderer : IGridRenderer
     {
