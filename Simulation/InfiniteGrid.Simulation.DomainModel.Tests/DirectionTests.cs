@@ -25,11 +25,11 @@ namespace InfiniteGrid.Simulation.DomainModel.Tests
         {
             var source = Direction.North;
             var result = source.MoveCounterClockwise();
-            Assert.AreEqual(Direction.East, result);
+            Assert.AreEqual(Direction.West, result);
         }
 
         [Test]
-        public void Given_west_Move_counterclockwise_to_south()
+        public void Given_west_Move_counter_clockwise_to_south()
         {
             var source = Direction.West;
             var result = source.MoveCounterClockwise();

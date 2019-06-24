@@ -19,7 +19,10 @@ namespace InfiniteGrid.Simulation.DomainModel
 
         public static Direction MoveCounterClockwise(this Direction direction)
         {
-            return (Direction)Math.Abs(((int)direction - 1) % 4);
+            if (direction == Direction.North)
+                return Direction.West;
+
+            return (Direction)((int)direction - 1);
         }
     }
 }
