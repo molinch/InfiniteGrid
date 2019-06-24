@@ -1,7 +1,7 @@
 ﻿using InfiniteGrid.Simulation.Application.Responses;
 using InfiniteGrid.Simulation.DomainModel;
-using MediatR;
 using System.ComponentModel.DataAnnotations;
+using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 

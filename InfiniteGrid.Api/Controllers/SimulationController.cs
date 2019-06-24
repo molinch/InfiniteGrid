@@ -44,7 +44,7 @@ namespace InfiniteGrid.Api.Controllers
             }
 
             //TODO slow to serialize big files directly, could save it async locally and return link for download
-            return File(simulationResult.Stream, simulationResult.ContentType); 
+            return new FileStreamResult(simulationResult.Stream, simulationResult.ContentType); 
         }
 
         private ActionResult ValidateNumberSteps(int? numberSteps)

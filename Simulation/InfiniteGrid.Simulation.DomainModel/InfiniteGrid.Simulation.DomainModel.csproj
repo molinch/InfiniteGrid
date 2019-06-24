@@ -14,4 +14,26 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="target\Ardalis.GuardClauses.dll" />
+    <None Remove="target\MediatR.dll" />
+    <None Remove="target\Autofac.dll" />
+    <None Remove="target\Autofac.Extensions.DependencyInjection.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.DomainModel.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.DomainModel.pdb" />
+    <None Remove="target\Microsoft.Extensions.Configuration.dll" />
+    <None Remove="target\MediatR.Extensions.Microsoft.DependencyInjection.dll" />
+    <None Remove="target\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Remove="target\Microsoft.Extensions.Configuration.Binder.dll" />
+    <None Remove="target\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Remove="target\Microsoft.Extensions.Logging.dll" />
+    <None Remove="target\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Remove="target\Microsoft.Extensions.Options.dll" />
+    <None Remove="target\System.Buffers.dll" />
+    <None Remove="target\Microsoft.Extensions.Primitives.dll" />
+    <None Remove="target\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="target\System.Memory.dll" />
+    <None Remove="target\System.Numerics.Vectors.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.DomainModel.deps.json" />
+  </ItemGroup>
 </Project>

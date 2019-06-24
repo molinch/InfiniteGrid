@@ -11,6 +11,7 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.0" />
     <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,4 +24,16 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="target\Autofac.Extensions.DependencyInjection.dll" />
+    <None Remove="target\Ardalis.GuardClauses.dll" />
+    <None Remove="target\Autofac.dll" />
+    <None Remove="target\InfiniteGrid.Simulation.Application.deps.json" />
+    <None Remove="target\System.Buffers.dll" />
+    <None Remove="target\System.Drawing.Common.dll" />
+    <None Remove="target\System.ComponentModel.Annotations.dll" />
+    <None Remove="target\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="target\System.Memory.dll" />
+    <None Remove="target\System.Numerics.Vectors.dll" />
+  </ItemGroup>
 </Project>
