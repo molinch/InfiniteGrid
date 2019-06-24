@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace InfiniteSpaceship.Simulation.DomainModel.Tests
+namespace InfiniteGrid.Simulation.DomainModel.Tests
 {
     public class DirectionTests
     {

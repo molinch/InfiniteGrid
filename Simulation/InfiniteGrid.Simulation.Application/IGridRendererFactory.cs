@@ -1,4 +1,4 @@
-﻿namespace InfiniteSpaceship.Simulation.Application
+﻿namespace InfiniteGrid.Simulation.Application
 {
     public interface IGridRendererFactory
     {

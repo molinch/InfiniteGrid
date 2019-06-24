@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace InfiniteSpaceship.Simulation.Application
+namespace InfiniteGrid.Simulation.Application
 {
     public class ApplicationModule : Module
     {

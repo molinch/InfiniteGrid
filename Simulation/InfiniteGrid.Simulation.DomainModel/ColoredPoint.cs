@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace InfiniteSpaceship.Simulation.DomainModel
+namespace InfiniteGrid.Simulation.DomainModel
 {
     public struct ColoredPoint
     {

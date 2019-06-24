@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace InfiniteSpaceship.Simulation.DomainModel
+namespace InfiniteGrid.Simulation.DomainModel
 {
     public class Grid
     {

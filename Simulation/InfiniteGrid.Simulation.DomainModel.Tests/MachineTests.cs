@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using System.Drawing;
 
-namespace InfiniteSpaceship.Simulation.DomainModel.Tests
+namespace InfiniteGrid.Simulation.DomainModel.Tests
 {
     public class MachineTests
     {

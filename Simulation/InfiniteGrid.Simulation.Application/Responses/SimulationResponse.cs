@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace InfiniteSpaceship.Simulation.Application.Responses
+namespace InfiniteGrid.Simulation.Application.Responses
 {
     public class SimulationResponse
 
