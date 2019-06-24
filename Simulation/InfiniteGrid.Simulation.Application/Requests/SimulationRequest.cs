@@ -26,10 +26,8 @@ namespace InfiniteGrid.Simulation.Application.Requests
             public Task<SimulationResponse> Handle(SimulationRequest request, CancellationToken cancellationToken)
             {
                 var machine = new Machine(ColoredPoint.Origin, Direction.East);
-                for (var i=0; i < request.NumberSteps; i++)
-                {
-                    machine.Move();
-                }
+                var machineCycleAware = new MachineCycleAware(machine);
+                machineCycleAware.Move(request.NumberSteps);
 
                 var grid = new Grid(machine.Points);
                 var renderer = _rendererFactory.Get(request.OutputType);

@@ -26,14 +26,28 @@ namespace InfiniteGrid.Simulation.DomainModel
         public Direction Faces { get; private set; }
         public IEnumerable<ColoredPoint> Points => _points.Values;
 
-        public void Move()
+        public IEnumerable<Size> KeepMoving()
+        {
+            while (true)
+            {
+                yield return Move();
+            }
+        }
+
+        /// <summary>
+        /// Moves the machine to the next cell
+        /// </summary>
+        /// <returns>The translation from original cell to destination cell</returns>
+        public Size Move()
         {
             var current = Current;
             var faces = Faces;
             faces = Move(faces, current.IsBlack);
             _points[current.Point] = current.Flip();
-            Current = GetOrCreateFor(current.Point + Moves[faces]);
+            var move = Moves[faces];
+            Current = GetOrCreateFor(current.Point + move);
             Faces = faces;
+            return move;
         }
 
         private ColoredPoint GetOrCreateFor(Point point)
